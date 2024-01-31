@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    line-height: 15px;
+    margin-bottom: 0px;
+ 
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.sidebar{
+    min-width: 30vw;
+    background-color: rgb(219, 219, 219);
+    height: 100vh;
+    padding-left: 5px;
+
+}
+#profile{
+    width: 10vw;
+    height: 10em;
+    display: block;
+    margin: 0 auto;
+    border: 5px double green;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#profile:hover{
+    border-color: red;
+}
+#profile image{
+    overflow: hidden;
+    border-radius: 50%;
+}
+.sidebar h1{
+    text-align: center;
+    font-family:poppins,verdana;
+    font-size:2vw;
+}
+.sidebar h3{
+    text-align: center;
+    font-family:roboto,verdana;
+    font-size:1.5vw;
+    font-weight: 300;
+}
+
+#datetime{
+    margin-top: 45px;
+    font-family: poppins,verdana;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5vh;
+}
+
+.buttoncontainer{
+    margin-top: 70px;
+    font-family:poppins,verdana;
+    font-size:2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sidebarbutton{
+    height: 45px ;
+    width: 75%;
+    margin-bottom: 15px;
+    font-family: poppins,roboto;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    box-shadow: 0px 2px black ;
+    text-align: center;
+}
+
+.sidebarbutton:hover{
+    background-color: red;
+    cursor: pointer;
+    scale: 0.99;
+    
+    
+}
+
+.logoutdashboard{
+    color: white;
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 10vh;
+    box-shadow: 0px 5px 3px black;
+    border-radius: 15px;
+    background-color: green;
+
+
+}
+.logoutdashboard a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.5em;
+    padding-left: 5px;
+}
+.logoutdashboard:hover{
+    background-color: red;
+    scale: 0.9;
+    cursor: pointer;
+}
