@@ -9,8 +9,7 @@
 
 </head>
 <body>
-    <?php
-    ?>
+
     <div class="container">
         <div class="loginheader">
             <img src="images/logo-1-192x138.png" alt="" id="logo" width="250px" height="200px">
