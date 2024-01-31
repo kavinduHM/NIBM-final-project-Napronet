@@ -25,13 +25,13 @@
                     <label for="password" class="loginformlabel">Enter Your Password</label>
                     <input type="password" name="password" id="">
                 </div>
-                <button><a href="dashboard.html">Login</a></button>
+                <button id="login-button">Login</button>
             </form>
         </div>
     </div>
 
 
 
-    
+    <script src="javascript/login.js"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/dashboardstyle.css">
     <script src="https://kit.fontawesome.com/0df6f8475c.js"crossorigin="anonymous"></script>
-    <script src="dashboard.js" defer></script>
+    
     <title>Dashboard</title>
 </head>
 <body>
@@ -42,6 +42,7 @@
 
 
 
-    
+
+    <script src="javascript/dashboard.js" defer></script>
 </body>
 </html>

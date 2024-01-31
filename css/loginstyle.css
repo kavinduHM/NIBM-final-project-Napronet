@@ -70,6 +70,7 @@ form button{
     margin-top: 25px;
     height: 45px;
     border-radius: 25px;
+    color: #3b8750;
 
 }
 
@@ -83,7 +84,8 @@ form button{
 }
 
 form button:hover{
+    width: 150px;
     background-color:red ;
     border: 1px solid white;
-    
+    color: white;
 }
