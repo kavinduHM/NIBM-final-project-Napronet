@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Napronet E System</title>
-    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="stylesheet" href="css/loginstyle.css">
     <script src="https://kit.fontawesome.com/0df6f8475c.js" crossorigin="anonymous"></script>
 
 </head>

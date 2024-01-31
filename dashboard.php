@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dashboardstyle.css">
+    <link rel="stylesheet" href="css/dashboardstyle.css">
     <script src="https://kit.fontawesome.com/0df6f8475c.js"crossorigin="anonymous"></script>
     <script src="dashboard.js" defer></script>
     <title>Dashboard</title>
