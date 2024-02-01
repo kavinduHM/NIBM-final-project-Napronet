@@ -4,76 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/dashboardstyle.css">
-    <script src="https://kit.fontawesome.com/0df6f8475c.js"crossorigin="anonymous"></script>
-    
     <title>Dashboard</title>
 </head>
+
 <body>
-    
+
     <div class="maincontainer">
         <div class="sidebar">
-            <img src="images/340353591_2290161711156829_779023339047059312_n.jpg" alt="" id="profile">
-            <h1>Hello</h1>
-            <h3>Kavindu</h3>
-            <div id="datetime"></div>
-
-            <div class="buttoncontainer">
-                <button class="sidebarbutton" id="employee">Employee Management</button>
-                <button class="sidebarbutton" id="stock">Stock Management</button>
-                <button class="sidebarbutton" id="Payroll">Payroll Management</button>
-                <button class="sidebarbutton" id="Settings">User Settings</button>
-                <i class="fa-solid fa-power-off logoutdashboard"><a href="">Log-Out</a></i>
-                
-
+            <div class="dashinfo">
+                <img src="images/logo-1-192x138.png" alt="" id="profile">
+                <ion-icon name="menu-outline" class="hamburg"></ion-icon>
             </div>
-        </div>
-      
-
-        <div class="content">
-            <div class="stat-container">
-                <div class="current-stock">
-                    <i class="fa-solid fa-basket-shopping stockicon"></i>
-                    <h3>Coir Pots In Stock</h3>
-                    <!-- Add Pot Stock Calculation funtion-->
-                    
-                </div>
-
-                <div class="current-stock">
-                    <i class="fa-solid fa-compact-disc stockicon"></i>
-                    <h3>Coir Disc In stock</h3>
-                    <!-- Add Compost disc stock calculation funtion -->
-                    
-                </div>
-
-                <div class="current-stock">
-                    <i class="fa-solid fa-cat stockicon"></i>
-                    <h3>Pet Care In stock</h3>
-                    <!-- Add Petcare stock calculation funtion -->
-                    
-                </div>
-
-            
-            </div>
-
-            <div class="orderstat">
-                
-            </div>
-            
-
-        </div>
-            
             
         </div>
 
+        <div class="dashstatcontainer">
+            <div class="stockstat"><h1>sfasfafa</h1></div>
+            <div class="pots"><h1>sdsada</h1></div>
+
+        </div>
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
 
 
 
 
 
-
-    <script src="javascript/dashboard.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
