@@ -41,12 +41,23 @@
                 <div class="current-stock">
                     <i class="fa-solid fa-compact-disc stockicon"></i>
                     <h3>Coir Disc In stock</h3>
+                    <!-- Add Compost disc stock calculation funtion -->
+                    
+                </div>
 
+                <div class="current-stock">
+                    <i class="fa-solid fa-cat stockicon"></i>
+                    <h3>Pet Care In stock</h3>
+                    <!-- Add Petcare stock calculation funtion -->
+                    
                 </div>
 
             
             </div>
 
+            <div class="orderstat">
+                
+            </div>
             
 
         </div>
