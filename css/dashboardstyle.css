@@ -81,6 +81,8 @@ body {
     border: none;
     box-shadow: 0px 2px black ;
     text-align: center;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius:25px ;
 }
 
 .sidebarbutton:hover{
@@ -139,4 +141,8 @@ body {
 .stockicon{
     font-size: 65px;
     color: white;
+}
+.current-stock:hover{
+    background-color: red;
+    cursor: pointer;
 }
