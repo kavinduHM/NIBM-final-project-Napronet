@@ -32,7 +32,7 @@
         <div class="content">
             <div class="current-stock"></div>
             <div class="current-order"></div>
-            <div class="mark-attendance"></div>
+            <div class="daily-attendance-mark"></div>
             
         </div>
 
