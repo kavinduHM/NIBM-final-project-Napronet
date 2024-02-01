@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: rgb(238, 238, 238);
 }
 
 .sidebar{
@@ -13,6 +12,7 @@
     background-color: white;
     height: 100vh;
     overflow: hidden;
+    border-right: 2px solid rgb(238, 238, 238);
 }
 
 .dashinfo{
@@ -37,4 +37,37 @@
 
 .hamburg{
     font-size: 35px;
+}
+
+.sidenavmenu {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidenav-icon {
+    font-size: 25px;
+}
+
+.menu-text {
+    display: inline-block;
+}
+
+li:hover {
+    background-color: red;
+}
+
+.side-nav-list {
+    width: 100%;
+    text-align: center;
+    padding: 0; /* Remove default padding to make width fit to sidebar */
 }

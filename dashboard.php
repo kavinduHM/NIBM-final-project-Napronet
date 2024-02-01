@@ -10,17 +10,28 @@
 <body>
 
     <div class="maincontainer">
+        <!-- Sidebar -->
         <div class="sidebar">
+
             <div class="dashinfo">
                 <img src="images/logo-1-192x138.png" alt="" id="profile">
                 <ion-icon name="menu-outline" class="hamburg"></ion-icon>
             </div>
+
+            <div class="sidenavmenu">
+                <ul class="side-nav-list">
+                    <li>
+                        <ion-icon name="today-outline" class="sidenav-icon"></ion-icon>
+                        <span class="menu-text">Dashboard</span>
+                    </li>
+                </ul>   
+            </div>
             
         </div>
 
+        <!-- Dashboard -->
         <div class="dashstatcontainer">
-            <div class="stockstat"><h1>sfasfafa</h1></div>
-            <div class="pots"><h1>sdsada</h1></div>
+            
 
         </div>
     </div>
