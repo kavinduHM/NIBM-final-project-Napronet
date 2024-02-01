@@ -30,9 +30,13 @@
       
 
         <div class="content">
+            <div class="stat-container">
             <div class="current-stock"></div>
             <div class="current-order"></div>
             <div class="daily-attendance-mark"></div>
+
+        </div>
+            
             
         </div>
 
