@@ -31,9 +31,23 @@
 
         <div class="content">
             <div class="stat-container">
-            <div class="current-stock"></div>
-            <div class="current-order"></div>
-            <div class="daily-attendance-mark"></div>
+                <div class="current-stock">
+                    <i class="fa-solid fa-basket-shopping stockicon"></i>
+                    <h3>Coir Pots In Stock</h3>
+                    <!-- Add Pot Stock Calculation funtion-->
+                    
+                </div>
+
+                <div class="current-stock">
+                    <i class="fa-solid fa-compact-disc stockicon"></i>
+                    <h3>Coir Disc In stock</h3>
+
+                </div>
+
+            
+            </div>
+
+            
 
         </div>
             
