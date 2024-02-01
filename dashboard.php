@@ -20,11 +20,32 @@
 
             <div class="sidenavmenu">
                 <ul class="side-nav-list">
-                    <li>
-                        <ion-icon name="today-outline" class="sidenav-icon"></ion-icon>
+                    <li class="sidebar-li">
+                        <ion-icon name="today-sharp" class="sidenav-icon"></ion-icon>
                         <span class="menu-text">Dashboard</span>
                     </li>
-                </ul>   
+                    
+                    <li class="sidebar-li">
+                        <ion-icon name="today-outline" class="sidenav-icon"></ion-icon>
+                        <span class="cube-sharp">Stock Status</span>
+                    </li>
+
+                    <li class="sidebar-li">
+                        <ion-icon name="list-circle-sharp" class="sidenav-icon"></ion-icon>
+                        <span class="menu-text">Attendance</span>
+                    </li>
+
+                    <li class="sidebar-li">
+                        <ion-icon name="wallet-sharp" class="sidenav-icon"></ion-icon>
+                        <span class="menu-text">Salary Management</span>
+                    </li>
+
+                    <li class="sidebar-li">
+                        <ion-icon name="boat-sharp" class="sidenav-icon"></ion-icon>
+                        <span class="menu-text">Order Management</span>
+                    </li>                                        
+                </ul>
+                
             </div>
             
         </div>
@@ -33,7 +54,7 @@
         <div class="dashstatcontainer">
             
 
-        </div>
+        
     </div>
 
 
