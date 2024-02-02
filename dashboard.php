@@ -45,6 +45,11 @@
                         <span class="menu-text">Order Management</span>
                     </li>                                        
                 </ul>
+
+                <div class="logout">
+                    <button class="logout-dash">Logout</button>
+                    <button class="logout-dash">Guide</button>
+                </div>
                 
             </div>
             
@@ -57,7 +62,7 @@
         
     </div>
 
-
+<!-- Good Day Kavindu! Lets Finish Dashboard layout today -->
 
 
 

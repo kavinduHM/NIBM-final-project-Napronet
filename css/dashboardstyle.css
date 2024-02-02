@@ -84,3 +84,22 @@ li {
     width: 90%;    padding: 0; /* Remove default padding to make width fit to sidebar */
 }
 
+.logout{
+    display:flex;
+    flex-direction: column;
+}
+
+.logout-dash{
+    background-color: #034C3C;
+    color: white;
+    font-family: 'Plus Jakarta Sans','Roboto';
+    font-weight: bold;
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.logout-dash:hover{
+    background-color: red;
+}
