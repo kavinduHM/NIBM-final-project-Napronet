@@ -64,10 +64,15 @@
                 </header>
                 
             <div class="stockstatus-summary">
-                <div class="pots"></div>
-                <div class="pots"></div>
-                <div class="pots"></div>
-
+                <H1>Available Stocks</H1>
+                
+                <div class="stocksummary-container">
+                    <div class="items-summary">
+                        <ion-icon name="basket-sharp" class="stock-icon"></ion-icon>
+                    </div>
+                    <div class="items-summary"></div>
+                    <div class="items-summary"></div>
+                </div>
             </div>       
 
             
@@ -77,6 +82,7 @@
     </div>
 
 <!-- Good Day Kavindu! Lets Finish Dashboard layout today -->
+<!--  -->
 
 
 
