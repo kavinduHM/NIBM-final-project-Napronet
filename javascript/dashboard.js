@@ -17,7 +17,7 @@ function displayDateTime() {
     document.getElementById('time').innerText = time;
 }
 
-// Call the function when the page is loaded
+// Call the function when the dashboard page is loaded
 window.onload = function() {
     displayDateTime();
 };
@@ -25,14 +25,13 @@ window.onload = function() {
 /*menu toggle*/
 document.getElementById('sidemenu-toggle').addEventListener('click', function () {
     var sidebar = document.getElementById('sidebar');
-    var header = document.getElementById('header');
 
     if (sidebar.style.display === 'none' || sidebar.style.display === '') {
         sidebar.style.display = 'block';
-        header.style.width = '75%';
+
     } else {
         sidebar.style.display = 'none';
-        header.style.width = '95%';
+
     }
 });
 
