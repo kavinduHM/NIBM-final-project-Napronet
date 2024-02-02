@@ -11,11 +11,10 @@
 
     <div class="maincontainer">
         <!-- Sidebar -->
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
 
             <div class="dashinfo">
                 <img src="images/logo-1-192x138.png" alt="" id="profile">
-                <ion-icon name="menu-outline" class="hamburg"></ion-icon>
             </div>
 
             <div class="sidenavmenu">
@@ -50,17 +49,20 @@
             
         </div>
 
-        <!-- Dashboard -->
+        <!-- Dashboard Content -->
         <div class="dashstatcontainer">
-            <div class="header">
-                <header>
-                    <div><ion-icon name="menu-outline" class="hamburg"></ion-icon>
+            
+                <header id="header">
+                    <div><ion-icon name="menu-outline" class="hamburg" id="sidemenu-toggle"></ion-icon>
                     </div>
                     <div class="welcome">
                         <h1>Hello Kavindu</h1>
                     </div>
                 </header>
-            </div>
+                
+                
+
+            
 
         </div>
         

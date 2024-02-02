@@ -10,15 +10,18 @@
 .maincontainer{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 95%;
 }
 
 .sidebar{
+
     width: 30%;
     background-color: white;
+    display: block;
     height: 100vh;
     overflow: hidden;
-    border-right: 2px solid rgb(238, 238, 238);
+    border-right: 2px solid rgb(238, 238, 238);  
+
 }
 
 .dashinfo{
@@ -31,10 +34,6 @@
 #profile{
     width: 70px;
     border: 2px solid white;
-}
-
-.hamburg{
-    font-size: 2em;
 }
 
 .sidenavmenu {
@@ -70,7 +69,8 @@ li {
     border: 1px solid white;
     background-color: #034C3C;
     border-top-right-radius: 15px ;
-    border-bottom-right-radius: 15px;    
+    border-bottom-right-radius: 15px;  
+    cursor: pointer;  
 }
 
 .sidebar-li:hover {
@@ -85,14 +85,25 @@ li {
 /* Dashboard content */
 .dashstatcontainer{
     width: 100%;
+    margin: 5px;
+    padding: 5px;
 }
 
 header{
     height: 5vh;
     border-bottom: 1px solid rgb(226, 226, 226);
-        display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 75%;
+    position: fixed;
+    background-color: white;
+
+}
+
+.hamburg{
+    font-size: 2em;
+    cursor: pointer;
+    text-align: left;
 }
 
