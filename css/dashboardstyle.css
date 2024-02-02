@@ -10,7 +10,7 @@
 .maincontainer{
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 100%;
 }
 
 .sidebar{
@@ -95,8 +95,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 75%;
-    position: fixed;
+    width: 100%;
     background-color: white;
 
 }
@@ -107,3 +106,14 @@ header{
     text-align: left;
 }
 
+.pots{
+    background-color: red;
+    height: 25px;
+    width: 25px;
+}
+
+.stockstatus-summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

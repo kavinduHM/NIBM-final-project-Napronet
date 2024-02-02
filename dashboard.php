@@ -60,7 +60,12 @@
                     </div>
                 </header>
                 
-                
+            <div class="stockstatus-summary">
+                <div class="pots"></div>
+                <div class="pots"></div>
+                <div class="pots"></div>
+
+            </div>       
 
             
 
