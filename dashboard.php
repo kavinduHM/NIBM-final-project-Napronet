@@ -56,7 +56,10 @@
                     <div><ion-icon name="menu-outline" class="hamburg" id="sidemenu-toggle"></ion-icon>
                     </div>
                     <div class="welcome">
-                        <h1>Hello Kavindu</h1>
+                        <h1>Welcome to Napronet (pvt) Ltd E-Management System</h1>
+                    </div>
+                    <div class="currentday">
+                        <h1 id="date"></h1>
                     </div>
                 </header>
                 

@@ -1,7 +1,12 @@
 /* Fonts : Plus jakarta sans / Roboto */
   @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
- *{
+  body{
+    margin: 0;
+
+  }
+
+  body, p, h1, h2, h3, h4, h5, h6 {
     font-family: 'Plus Jakarta Sans','Roboto';
     font-weight: bold;
     font-size: 1em;
@@ -85,35 +90,39 @@ li {
 /* Dashboard content */
 .dashstatcontainer{
     width: 100%;
-    margin: 5px;
-    padding: 5px;
+    margin-top: 0px;
+    padding-right: 15px;
 }
 
 header{
     height: 5vh;
-    border-bottom: 1px solid rgb(226, 226, 226);
+    margin: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    background-color: white;
+    border-bottom: 1px solid rgb(226, 226, 226);
 
 }
 
 .hamburg{
     font-size: 2em;
-    cursor: pointer;
     text-align: left;
+    cursor: pointer;
+    
 }
 
-.pots{
-    background-color: red;
-    height: 25px;
-    width: 25px;
+.welcome{
+    font-weight: 400;
 }
 
-.stockstatus-summary{
+.currentday{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
+#date{
+    
+}
+
