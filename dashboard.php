@@ -45,11 +45,6 @@
                         <span class="menu-text">Order Management</span>
                     </li>                                        
                 </ul>
-
-                <div class="logout">
-                    <button class="logout-dash">Logout</button>
-                    <button class="logout-dash">Guide</button>
-                </div>
                 
             </div>
             
@@ -57,8 +52,17 @@
 
         <!-- Dashboard -->
         <div class="dashstatcontainer">
-            
+            <div class="header">
+                <header>
+                    <div><ion-icon name="menu-outline" class="hamburg"></ion-icon>
+                    </div>
+                    <div class="welcome">
+                        <h1>Hello Kavindu</h1>
+                    </div>
+                </header>
+            </div>
 
+        </div>
         
     </div>
 
@@ -94,5 +98,6 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="javascript/dashboard.js"></script>
 </body>
 </html>
