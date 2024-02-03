@@ -39,7 +39,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 #profile{
-    width: 70px;
+    width: auto;
     border: 2px solid white;
 }
 
@@ -97,25 +97,10 @@ li {
     padding-right: 15px;
 }
 
-#header{
-    height: 5vh;
-    margin: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid rgb(226, 226, 226);
-    background-color: white;
-}
-
-.hamburg{
-    font-size: 2em;
-    cursor: pointer;
-}
-
 .greeting{
     display: flex;
     flex-direction: row;
-    height: 230px;
+    height: 19vh;
     width: 80vw;
     background-image: url(/images/greetingbg.jpg);
     background-size:contain;
@@ -130,13 +115,14 @@ li {
     height: 100%;
     border-radius: 20px;
     text-align: center;
-    background-color: hsla(0, 0%, 0%, 0.2);
+    background-color: hsla(0, 0%, 0%, 0.3);
+    
 }
 
 #dateholder{
     margin-bottom: 0px;
     margin-top: 0px;
-    color: #F99C39;
+    color: #F9C22E;
     font-family: 'Niconne';
     font-size:5em;
     
@@ -157,3 +143,45 @@ li {
     font-family: 'Niconne';
     font-size:2em;
 }
+
+.stocksummary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.single-stock-container{
+    margin: 15px;
+    padding: 15px;
+    height: 210px;
+    width: 300px ;
+    border: 1px solid grey ;
+    border-radius: 20px;
+    background-color: #034C3C;
+}
+
+.single-stock-container h1{
+    margin-top: 2px;
+    color: #ffffff;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.itemamount{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .sidebar {
+      display: none; /* Hide the sidebar on screens with a width of 767 pixels or less */
+    }
+  }
