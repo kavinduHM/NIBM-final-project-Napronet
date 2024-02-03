@@ -50,13 +50,28 @@
         </div>
 
         <!-- Dashboard Content -->
-        <div class="dashstatcontainer">
+        <div class="dashstatcontainer" id="dashstatcontainer">
             
                 <header id="header">
                     <div class="hamburg" id="sidemenu-toggle">
                         <ion-icon name="menu-outline" ></ion-icon>
                     </div>
-                </header>     
+                </header>
+                
+            <div class="greeting">
+                <div class="calander-card">
+                    <h1 id="dateholder">Today</h1>
+                        <p id="date"></p>
+                        <p id="time"></p>
+                </div>    
+            </div>
+
+            <div class="stocksummary">
+                <div id="pots"></div>
+                <div id="discs"></div>
+                <div id="petcare"></div>
+
+            </div>
 
         </div>
         
