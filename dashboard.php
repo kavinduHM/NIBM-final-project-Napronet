@@ -52,11 +52,6 @@
         <!-- Dashboard Content -->
         <div class="dashstatcontainer" id="dashstatcontainer">
             
-                <header id="header">
-                    <div class="hamburg" id="sidemenu-toggle">
-                        <ion-icon name="menu-outline" ></ion-icon>
-                    </div>
-                </header>
                 
             <div class="greeting">
                 <div class="calander-card">
@@ -67,9 +62,26 @@
             </div>
 
             <div class="stocksummary">
-                <div id="pots"></div>
-                <div id="discs"></div>
-                <div id="petcare"></div>
+                <div id="pots" class="single-stock-container">
+                    <h1>COIR POTS<br>IN-STOCK</h1>
+                    <p id="pots-quantity" class="itemamount">57444</p>
+
+                </div>
+
+                <div id="discs" class="single-stock-container">
+                    <h1>COMPOST DISCS<br>IN-STOCK</h1>
+                    <p id="disc-quantity" class="itemamount">47155</p>
+                </div>
+
+                <div id="petcare" class="single-stock-container">
+                    <h1>PETCARE<br>IN-STOCK</h1>
+                    <p id="petcare-quantity" class="itemamount">45822</p>
+                </div>
+
+                <div id="twine" class="single-stock-container">
+                    <h1>COIR TWINE<br>IN-STOCK</h1>
+                    <p id="twine-quantity" class="itemamount">19552</p>
+                </div>
 
             </div>
 
