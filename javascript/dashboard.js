@@ -29,25 +29,3 @@ function displayDateTime() {
 window.onload = function() {
     displayDateTime();
 };
-
-
-
-
-/*menu toggle*/
-document.getElementById('sidemenu-toggle').addEventListener('click', function () {
-    var sidebar = document.getElementById('sidebar');
-    var statcontainer = document.getElementById('dashstatcontainer');
-
-    if (sidebar.style.display === 'none' || sidebar.style.display === '') {
-        sidebar.style.display = 'block';
-        sidebar.style.width ='30%';
-
-
-    } else {
-        sidebar.style.display = 'none';
-        sidebar.style.width ='0%';
-        statcontainer.style.width = '100%';
-        
-    }
-});
-
