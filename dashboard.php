@@ -53,36 +53,17 @@
         <div class="dashstatcontainer">
             
                 <header id="header">
-                    <div><ion-icon name="menu-outline" class="hamburg" id="sidemenu-toggle"></ion-icon>
+                    <div class="hamburg" id="sidemenu-toggle">
+                        <ion-icon name="menu-outline" ></ion-icon>
                     </div>
-                    <div class="welcome">
-                        <h1>Welcome to Napronet (pvt) Ltd E-Management System</h1>
-                    </div>
-                    <div class="currentday">
-                        <h1 id="date"></h1>
-                    </div>
-                </header>
-                
-            <div class="stockstatus-summary">
-                <H1>Available Stocks</H1>
-                
-                <div class="stocksummary-container">
-                    <div class="items-summary">
-                        <ion-icon name="basket-sharp" class="stock-icon"></ion-icon>
-                    </div>
-                    <div class="items-summary"></div>
-                    <div class="items-summary"></div>
-                </div>
-            </div>       
-
-            
+                </header>     
 
         </div>
         
     </div>
 
 <!-- Good Day Kavindu! Lets Finish Dashboard layout today -->
-<!--  -->
+
 
 
 
