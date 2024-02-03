@@ -91,7 +91,7 @@ li {
 
 /* Dashboard content */
 .dashstatcontainer{
-    width: 100vw;
+    width: 80vw;
     height: 100vh;
     margin-top: 0px;
     padding-right: 15px;
@@ -100,7 +100,7 @@ li {
 .greeting{
     display: flex;
     flex-direction: row;
-    height: 19vh;
+    height: 20vh;
     width: 80vw;
     background-image: url(/images/greetingbg.jpg);
     background-size:contain;
@@ -180,8 +180,3 @@ li {
 
 
 
-@media only screen and (max-width: 767px) {
-    .sidebar {
-      display: none; /* Hide the sidebar on screens with a width of 767 pixels or less */
-    }
-  }
