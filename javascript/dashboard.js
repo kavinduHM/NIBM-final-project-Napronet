@@ -28,10 +28,12 @@ document.getElementById('sidemenu-toggle').addEventListener('click', function ()
 
     if (sidebar.style.display === 'none' || sidebar.style.display === '') {
         sidebar.style.display = 'block';
+        sidebar.style.width ='30%';
+
 
     } else {
         sidebar.style.display = 'none';
-
+        sidebar.style.width ='0%';
     }
 });
 
